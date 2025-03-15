@@ -45,28 +45,29 @@ The purpose of this project is to showcase programming skills, database interact
 
 1. Open the project in Visual Studio.
 2. Right-click on the solution in Solution Explorer and click Restore NuGet Packages.
-3. Alternatively, you can run this in the Package Manager Console:
+3. Alternatively, you can run this in the Package Manager Console:\
 dotnet restore
 
 4. Install required NuGet Packages
-Run these commands:
-dotnet add package Microsoft.EntityFrameworkCore.SqlServer
-dotnet add package Microsoft.EntityFrameworkCore.Design
-dotnet add package Microsoft.EntityFrameworkCore.Tools
-Or go to Tools -> NuGet Package Manager -> Manage NuGet Packages for Solution and search for installs.
+Run these commands:\
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer\
+dotnet add package Microsoft.EntityFrameworkCore.Design\
+dotnet add package Microsoft.EntityFrameworkCore.Tools\
+or go to Tools -> NuGet Package Manager -> Manage NuGet Packages for Solution and search for installs.
 
 ## Apply migrations and Update the Database
 
 If the migrations haven’t been applied yet, you can update the database schema:
 
-1. Open the **Package Manager Console** in Visual Studio and run:
-'Update-Database'
+1. Open the **Package Manager Console** in Visual Studio and run:\
+Update-Database
 
-2. Alternatively, use the .NET CLI:
-(dotnet ef database update)
 
-3. If you need to create a new migration, run: 
-dotnet ef migrations add InitialMigration
+3. Alternatively, use the .NET CLI:\
+dotnet ef database update
+
+5. If you need to create a new migration, run:\
+dotnet ef migrations add InitialMigration\
 dotnet ef database update  
 
 
