@@ -30,14 +30,30 @@ The purpose of this project is to showcase programming skills, database interact
      }
    }
 
+## To ensure appsettings.json is available when the application runs follow these steps:
+1. Go to Solution Explorer
+
+2. Find appsettings.json and right-click on it
+
+3. Go to Properties and Set "Copy to Output Directory" to "Copy if newer"
+
+4. Save and Rebuild the Solution
+   
+
+
 ## Restore NuGet Packages
 
 1. Open the project in Visual Studio.
-
 2. Right-click on the solution in Solution Explorer and click Restore NuGet Packages.
-
 3. Alternatively, you can run this in the Package Manager Console:
 dotnet restore
+
+4. Install required NuGet Packages
+Run these commands:
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+Or go to Tools -> NuGet Package Manager -> Manage NuGet Packages for Solution and search for installs.
 
 ## Apply migrations and Update the Database
 
@@ -48,6 +64,12 @@ Update-Database
 
 2. Alternatively, use the .NET CLI:
 dotnet ef database update
+
+3. If you need to create a new migration, run: 
+dotnet ef migrations add InitialMigration
+dotnet ef database update  
+
+
 
 
 
