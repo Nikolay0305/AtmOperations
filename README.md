@@ -4,7 +4,7 @@
 
 This console application simulates an ATM operation system where users can interact with their accounts. It is designed to demonstrate basic database operations such as user authentication, balance checks, and transactions. The project uses **Entity Framework Core** for database interaction and is connected to a **SQL Server** database.
 
-The purpose of this project is to showcase basic programming skills, database interactions, and object-oriented design. It is **not intended for production use** and does not implement advanced security practices such as password hashing or encryption, which are critical in real-world applications.
+The purpose of this project is to showcase programming skills, database interactions, and object-oriented design. It is **not intended for production use** and does not implement advanced security practices such as password hashing or encryption, which are critical in real-world applications.
 
 ## Features
 
