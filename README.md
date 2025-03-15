@@ -60,7 +60,7 @@ Or go to Tools -> NuGet Package Manager -> Manage NuGet Packages for Solution an
 If the migrations haven’t been applied yet, you can update the database schema:
 
 1. Open the **Package Manager Console** in Visual Studio and run:
-Update-Database
+'Update-Database'
 
 2. Alternatively, use the .NET CLI:
 dotnet ef database update
