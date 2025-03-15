@@ -63,7 +63,7 @@ If the migrations haven’t been applied yet, you can update the database schema
 'Update-Database'
 
 2. Alternatively, use the .NET CLI:
-dotnet ef database update
+    dotnet ef database update
 
 3. If you need to create a new migration, run: 
 dotnet ef migrations add InitialMigration
