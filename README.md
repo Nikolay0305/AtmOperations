@@ -32,11 +32,11 @@ The purpose of this project is to showcase programming skills, database interact
 
 ## Restore NuGet Packages
 
-1.Open the project in Visual Studio.
+1. Open the project in Visual Studio.
 
-2.Right-click on the solution in Solution Explorer and click Restore NuGet Packages.
+2. Right-click on the solution in Solution Explorer and click Restore NuGet Packages.
 
-3.Alternatively, you can run this in the Package Manager Console:
+3. Alternatively, you can run this in the Package Manager Console:
 dotnet restore
 
 ## Apply migrations and Update the Database
@@ -46,7 +46,7 @@ If the migrations haven’t been applied yet, you can update the database schema
 1. Open the **Package Manager Console** in Visual Studio and run:
 Update-Database
 
-2.Alternatively, use the .NET CLI:
+2. Alternatively, use the .NET CLI:
 dotnet ef database update
 
 
