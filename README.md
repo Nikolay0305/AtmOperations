@@ -4,7 +4,7 @@
 
 This console application simulates an ATM operation system where users can interact with their accounts. It is designed to demonstrate basic database operations such as user authentication, balance checks, and transactions. The project uses **Entity Framework Core** for database interaction and is connected to a **SQL Server** database.
 
-The purpose of this project is to showcase basic programming skills, database interactions, and object-oriented design. It is **not intended for production use** and does not implement advanced security practices such as password hashing or input validation, which are critical in real-world applications.
+The purpose of this project is to showcase basic programming skills, database interactions, and object-oriented design. It is **not intended for production use** and does not implement advanced security practices such as password hashing or encryption, which are critical in real-world applications.
 
 ## Features
 
@@ -29,3 +29,25 @@ The purpose of this project is to showcase basic programming skills, database in
        "DefaultConnection": "Server=your-server-name\\SQLEXPRESS;Database=AtmDB;Trusted_Connection=True;TrustServerCertificate=True;"
      }
    }
+
+## Restore NuGet Packages
+
+1.Open the project in Visual Studio.
+
+2.Right-click on the solution in Solution Explorer and click Restore NuGet Packages.
+
+3.Alternatively, you can run this in the Package Manager Console:
+dotnet restore
+
+## Apply migrations and Update the Database
+
+If the migrations haven’t been applied yet, you can update the database schema:
+
+1. Open the **Package Manager Console** in Visual Studio and run:
+Update-Database
+
+2.Alternatively, use the .NET CLI:
+dotnet ef database update
+
+
+
