@@ -26,7 +26,7 @@ The purpose of this project is to showcase programming skills, database interact
    ```json
    {
      "ConnectionStrings": {
-       "DefaultConnection": "Server=your-server-name\\SQLEXPRESS;Database=AtmDB;Trusted_Connection=True;TrustServerCertificate=True;"
+       "DefaultConnection": "Server=ADD_YOUR_SERVER;Database=AtmDB;Trusted_Connection=True;TrustServerCertificate=True;"
      }
    }
 
