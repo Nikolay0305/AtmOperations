@@ -9,7 +9,7 @@ The purpose of this project is to showcase programming skills, database interact
 ## Features
 
 - **User Authentication**: Users can log in using their card number. The program checks if the card number exists, then prompts for the PIN associated with that card number.
-- **Account Operations**: After logging in, users can check their current balance, change their PIN, withdraw or deposit money.
+- **Account Operations**: After logging in, users can check their current balance, change their PIN and withdraw or deposit money.
 - **Database Seeding**: The database is seeded with a few example users to demonstrate functionality.
 
 ## How to Set Up the Connection String
