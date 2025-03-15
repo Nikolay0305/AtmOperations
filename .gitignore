@@ -1,0 +1,21 @@
+# Ignore build and compiled files
+bin/
+obj/
+*.exe
+*.dll
+
+# Ignore user-specific settings
+*.user
+*.suo
+.vs/
+.vscode/
+
+# Ignore system files
+Thumbs.db
+.DS_Store
+
+# Ignore personal configuration files
+appsettings.json
+
+# Include the example config (appsettings.example.json)
+!appsettings.example.json
